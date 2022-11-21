@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f55cd1e-04fd-4b84-9096-b89db6f10d8e" name="Changes" comment="Separated classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/demo/StringTest.java" afterDir="false" />
+    <list default="true" id="7f55cd1e-04fd-4b84-9096-b89db6f10d8e" name="Changes" comment="StringUtils demo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/demo/SwitchCarDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
       <recent name="learning.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringTest">
+  <component name="RunManager" selected="Application.SwitchCarDemo">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.inheritance.Calculator" />
       <module name="mavenProject" />
@@ -64,8 +63,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.demo.CarDemo" />
+      <module name="mavenProject" />
+      <option name="PROGRAM_PARAMETERS" value="ford" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.demo.StringTest" />
+      <module name="mavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchCarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.demo.SwitchCarDemo" />
       <module name="mavenProject" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +130,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.SwitchCarDemo" />
+      <item itemvalue="Application.CarDemo" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.StringTest" />
       <item itemvalue="Maven.Maven Clean Install" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwitchCarDemo" />
+        <item itemvalue="Application.CarDemo" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.Calculator" />
       </list>
@@ -145,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669033293147</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="StringUtils demo">
+      <created>1669040580475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669040580475</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +200,7 @@
     <MESSAGE value="Initial Version" />
     <MESSAGE value="Udated Git Ign0re" />
     <MESSAGE value="Separated classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separated classes" />
+    <MESSAGE value="StringUtils demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringUtils demo" />
   </component>
 </project>
